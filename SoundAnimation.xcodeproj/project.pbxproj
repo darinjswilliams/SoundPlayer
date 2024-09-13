@@ -14,6 +14,8 @@
 		C80B2A472C94A1D200A97FF9 /* SoundAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B2A462C94A1D200A97FF9 /* SoundAnimationTests.swift */; };
 		C80B2A512C94A1D200A97FF9 /* SoundAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B2A502C94A1D200A97FF9 /* SoundAnimationUITests.swift */; };
 		C80B2A532C94A1D200A97FF9 /* SoundAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B2A522C94A1D200A97FF9 /* SoundAnimationUITestsLaunchTests.swift */; };
+		C80B2A602C94A25D00A97FF9 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B2A5F2C94A25D00A97FF9 /* SoundPlayer.swift */; };
+		C80B2A622C94AC9D00A97FF9 /* Ding-dong.wav in Resources */ = {isa = PBXBuildFile; fileRef = C80B2A612C94AC9D00A97FF9 /* Ding-dong.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C80B2A4C2C94A1D200A97FF9 /* SoundAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80B2A502C94A1D200A97FF9 /* SoundAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnimationUITests.swift; sourceTree = "<group>"; };
 		C80B2A522C94A1D200A97FF9 /* SoundAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C80B2A5F2C94A25D00A97FF9 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		C80B2A612C94AC9D00A97FF9 /* Ding-dong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ding-dong.wav"; path = "../../../../Downloads/Ding-dong/Ding-dong.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				C80B2A352C94A1CD00A97FF9 /* SoundAnimationApp.swift */,
 				C80B2A372C94A1CD00A97FF9 /* ContentView.swift */,
+				C80B2A5F2C94A25D00A97FF9 /* SoundPlayer.swift */,
+				C80B2A612C94AC9D00A97FF9 /* Ding-dong.wav */,
 				C80B2A392C94A1D000A97FF9 /* Assets.xcassets */,
 				C80B2A3B2C94A1D000A97FF9 /* Preview Content */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				C80B2A3D2C94A1D000A97FF9 /* Preview Assets.xcassets in Resources */,
 				C80B2A3A2C94A1D000A97FF9 /* Assets.xcassets in Resources */,
+				C80B2A622C94AC9D00A97FF9 /* Ding-dong.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C80B2A382C94A1CD00A97FF9 /* ContentView.swift in Sources */,
+				C80B2A602C94A25D00A97FF9 /* SoundPlayer.swift in Sources */,
 				C80B2A362C94A1CD00A97FF9 /* SoundAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
