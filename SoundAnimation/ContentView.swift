@@ -9,14 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     let soundPlayer = SoundPlayer()
+    let notificationGenerator = UINotificationFeedbackGenerator()
     
     var body: some View {
-        Button("Play Sound"){
-            soundPlayer.play()
+        VStack{
+            Button("Play Sound and Haptics "){
+                soundPlayer.play()
+                notificationGenerator.notificationOccurred(.success)
+            }
+            .buttonStyle(.borderedProminent)
         }
-        .buttonStyle(.borderedProminent)
+        .padding()
+        .onAppear{
+            notificationGenerator.prepare()
+        }
     }
 }
+
 
 #Preview {
     ContentView()
